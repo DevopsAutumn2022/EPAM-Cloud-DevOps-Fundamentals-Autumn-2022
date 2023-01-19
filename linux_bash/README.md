@@ -33,4 +33,4 @@ A data backup script that takes the following data as parameters:
 $ ./backup_cron.sh <datadir> <backup_dir>
 ```
 For adding command to run the script with a frequency of one minute to crontab you need to add the corresponding entry to the ***crontab*** as in the following example:
-<br/><br/>![crontab](https://github.com/DevopsAutumn2022/EPAM-Cloud-DevOps-Fundamentals-Autumn-2022/blob/main/linux_bash/crontab.PNG))
+<br/><br/>![crontab](https://github.com/DevopsAutumn2022/EPAM-Cloud-DevOps-Fundamentals-Autumn-2022/blob/main/linux_bash/crontab.PNG)
