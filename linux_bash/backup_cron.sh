@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/alexa/epam_tasks/bashtask/
+
 if [[ $# -ne 2 ]]; then
   echo -e "This script requires two arguments, got $#. Please enter source and destination backup paths as parameters"
   exit 1
@@ -25,5 +25,4 @@ fi
 
 if [[ -n $deleted ]];
   then echo -e $deleted $(date -r ${1} +"%d/%m/%Y %H:%M:%S") "\n" >> backup.log 
-  cp -r $1/* $2/
 fi
